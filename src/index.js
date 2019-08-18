@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
-import { createStore } from 'redux';
+import { createStore, applyMiddleware } from 'redux';
+import createSagaMiddleware from 'redux-saga';
 
 import './index.css';
 import 'bulma/css/bulma.css';
@@ -9,8 +10,13 @@ import 'bulma/css/bulma.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import elevReducer from './reducers';
+import rootSaga from './sagas';
 
-const store = createStore(elevReducer);
+const sagaMiddleware = createSagaMiddleware();
+
+const store = createStore(elevReducer, applyMiddleware(sagaMiddleware));
+
+sagaMiddleware.run(rootSaga);
 
 ReactDOM.render(
   <Provider store={store}>
