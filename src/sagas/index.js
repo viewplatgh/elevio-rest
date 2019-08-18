@@ -1,5 +1,5 @@
 import { all, call, put, takeEvery } from 'redux-saga/effects';
-import { SEARCH_ELEV, UPDATE_SEARCH_RESULT } from '../actions';
+import { SEARCH_ELEV } from '../actions';
 import { updateSearchResult } from '../actions';
 
 export function* fetchELEV(action) {
