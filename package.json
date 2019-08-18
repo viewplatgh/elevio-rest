@@ -42,6 +42,7 @@
   "prettier": {
     "singleQuote": true
   },
+  "homepage": "https://viewplatgh.github.io/elevio-rest",
   "browserslist": {
     "production": [
       ">0.2%",
