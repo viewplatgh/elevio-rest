@@ -4,6 +4,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
+    "lodash.template": "^4.5.0",
     "bulma": "^0.7.5",
     "gh-pages": "^2.1.1",
     "husky": "^3.0.4",
