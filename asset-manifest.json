@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/elevio-rest/static/css/main.b363755c.chunk.css",
+    "main.js": "/elevio-rest/static/js/main.ce934f97.chunk.js",
+    "main.js.map": "/elevio-rest/static/js/main.ce934f97.chunk.js.map",
+    "runtime~main.js": "/elevio-rest/static/js/runtime~main.4ac09f22.js",
+    "runtime~main.js.map": "/elevio-rest/static/js/runtime~main.4ac09f22.js.map",
+    "static/css/2.4c0f34c0.chunk.css": "/elevio-rest/static/css/2.4c0f34c0.chunk.css",
+    "static/js/2.785f6383.chunk.js": "/elevio-rest/static/js/2.785f6383.chunk.js",
+    "static/js/2.785f6383.chunk.js.map": "/elevio-rest/static/js/2.785f6383.chunk.js.map",
+    "index.html": "/elevio-rest/index.html",
+    "precache-manifest.e1fdec74f7c0aa614218fb5a136011d5.js": "/elevio-rest/precache-manifest.e1fdec74f7c0aa614218fb5a136011d5.js",
+    "service-worker.js": "/elevio-rest/service-worker.js",
+    "static/css/2.4c0f34c0.chunk.css.map": "/elevio-rest/static/css/2.4c0f34c0.chunk.css.map",
+    "static/css/main.b363755c.chunk.css.map": "/elevio-rest/static/css/main.b363755c.chunk.css.map"
+  }
+}
