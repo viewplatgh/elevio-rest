@@ -1,13 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
-import Search from './Search';
+import Search from './containers/Search';
 
 function App() {
   return (
     <div className="App">
       <div className="container">
+        <h1 className="title">Elevio rest app by Rob Lao</h1>
         <Search />
       </div>
     </div>

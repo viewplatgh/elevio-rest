@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { searchELEV } from './actions';
+import { searchELEV } from '../actions';
 
 class Search extends Component {
   keywordRef;
